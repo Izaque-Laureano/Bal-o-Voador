@@ -4,6 +4,11 @@ Jogo de matématica para evolução do cognitivo das crianças da 3° infância
 <html>
 <head>
 	<title>Balão Voador - Jogo educativo para crianças</title>
+	<style>
+	h1, h2 {
+		color: red;
+	}
+</style>
 </head>
 <body>
 	<h1>Balão Voador</h1>
