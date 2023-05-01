@@ -1,5 +1,3 @@
-# Balao-Voador
-Jogo de matématica para evolução do cognitivo das crianças da 3° infância 
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,9 +25,9 @@ Jogo de matématica para evolução do cognitivo das crianças da 3° infância
 	</ol>
 	<h2>Créditos</h2>
 	<ul>
-		<li>Desenvolvedor: [seu nome]</li>
-		<li>🎶Recursos de áudio: [créditos dos recursos de áudio utilizados]</li>
-		<li>🎨Recursos gráficos: [créditos dos recursos gráficos utilizados]</li>
+		<li>Desenvolvedor: [Izaque Laureano]</li>
+		<li>🎶Recursos de áudio: [Áudios públicos]</li>
+		<li>🎨Recursos gráficos: [Elementos grágicos públicos e alguns originais]</li>
 	</ul>
 	<h2>📜Licença</h2>
 	<p>Este projeto está sob a licença [escolha a licença apropriada para o seu projeto].</p>
