@@ -3,11 +3,7 @@
 <html>
 <head>
 	<title>Balão Voador - Jogo educativo para crianças</title>
-	<style>
-	h1, h2 {
-		color: red;
-	}
-</style>
+	
 </head>
 <body>
 	<h1>🎈Balão Voador</h1>
