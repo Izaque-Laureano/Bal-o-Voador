@@ -24,7 +24,7 @@
 	<ul>
 		<li>Desenvolvedor: [Izaque Laureano]</li>
 		<li>🎶Recursos de áudio: [Áudios públicos]</li>
-		<li>🎨Recursos gráficos: [Elementos grágicos públicos e alguns originais]</li>
+		<li>🎨Recursos gráficos: [Elementos gráficos públicos e alguns originais]</li>
 	</ul>
 	<h2>📜Licença</h2>
 	<p>Este projeto está sob a licença <a href="https://opensource.org/licenses/MIT">MIT</a>.</p>
