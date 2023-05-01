@@ -20,7 +20,11 @@ Jogo de matématica para evolução do cognitivo das crianças da 3° infância
 	<h2>💻Linguagem de Programação</h2>
 	<p>O jogo foi desenvolvido utilizando a linguagem C#.</p>
 	<h2>📄Instruções de instalação</h2>
-	<p>Para instalar o jogo, baixe o arquivo .apk para Android ou .ipa para IOS e instale-o em seu dispositivo.</p>
+	<li>Abra o Unity Editor e crie um novo projeto</li>
+		<li>Importe os arquivos deste projeto na Unity</li>
+		<li>Certifique-se de que todos os pacotes e recursos necessários estejam instalados</li>
+		<li>Clique em "Executar" para iniciar a aplicação no ambiente Unity</li>
+	</ol>
 	<h2>Créditos</h2>
 	<ul>
 		<li>Desenvolvedor: [seu nome]</li>
