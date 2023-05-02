@@ -16,8 +16,7 @@
 	<h2>💻Linguagem de Programação</h2>
 	<p>O jogo foi desenvolvido utilizando a linguagem C#.</p>
 	<h2>📄Instruções de instalação</h2>
-
-		<li>Abra o Unity Editor e crie um novo projeto</li>
+	<li>Abra o Unity Editor e crie um novo projeto</li>
 		<li>Importe os arquivos deste projeto na Unity</li>
 		<li>Certifique-se de que todos os pacotes e recursos necessários estejam instalados</li>
 		<li>Clique em "Executar" para iniciar a aplicação no ambiente Unity</li>
