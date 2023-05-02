@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <header>
-<div style="text-align: center; width: 100%;">
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
   <img src="Gif-Titulo.gif" alt="GIF animado">
  </div>
 </header>
