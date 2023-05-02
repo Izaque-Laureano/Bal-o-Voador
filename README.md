@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html>
 <header>
+<div style="text-align: center; width: 100%;">
   <img src="Gif-Titulo.gif" alt="GIF animado">
+ </div>
 </header>
 <body>
 	<h1>🎈Balão Voador</h1>
