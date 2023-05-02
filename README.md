@@ -21,7 +21,7 @@
 		<li>Certifique-se de que todos os pacotes e recursos necessários estejam instalados</li>
 		<li>Clique em "Executar" para iniciar a aplicação no ambiente Unity</li>
 	</ol>
-	<h2>Créditos</h2>
+	<h2>🎞Créditos</h2>
 	<ul>
 		<li>Desenvolvedor: [Izaque Laureano]</li>
 		<li>🎶Recursos de áudio: [Áudios públicos]</li>
