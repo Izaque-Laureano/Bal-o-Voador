@@ -1,10 +1,9 @@
 #
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Balão Voador - Jogo educativo para crianças</title>
-	
-</head>
+<header>
+  <img src="Balão Voador.gif" alt="GIF animado">
+</header>
 <body>
 	<h1>🎈Balão Voador</h1>
 	<p>Um jogo educativo para crianças da 3° infância, desenvolvido para Android e IOS com o intuito de desenvolver o cognitivo das crianças. A jogabilidade consiste em estourar balões que surgem da parte inferior da tela do celular e contém números que indicam a quantidade de pontos que cada balão vale.</p>
