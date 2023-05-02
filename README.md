@@ -1,8 +1,8 @@
 #
 <!DOCTYPE html>
 <html>
-<header>
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+<style="text-align: center;">
+<div>
   <img src="Gif-Titulo.gif" alt="GIF animado">
  </div>
 </header>
