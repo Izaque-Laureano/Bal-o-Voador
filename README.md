@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <header>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="/style.css">
 	<div classname = "Titulo">
   	<img src="Gif-Titulo.gif" alt="GIF animado">
 	</div>
