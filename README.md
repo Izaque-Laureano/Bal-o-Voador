@@ -3,9 +3,9 @@
 <html>
 <header>
 	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Izaque-Laureano/Bal-o-Voador/main/style.css">
-<div>
-  <img src="Gif-Titulo.gif" alt="GIF animado">
- </div>
+
+  	<img src="Gif-Titulo.gif" alt="GIF animado">
+
 </header>
 <body>
 	<h1>🎈Balão Voador</h1>
