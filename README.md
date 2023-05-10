@@ -2,9 +2,15 @@
 <!DOCTYPE html>
 <html>
 <header>
-	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Izaque-Laureano/Bal-o-Voador/main/style.css">
 <div>
   <img src="Gif-Titulo.gif" alt="GIF animado">
+	<style>
+    img {
+      display: block;
+      margin: auto;
+    }
+  </style>
  </div>
 </header>
 <body>
