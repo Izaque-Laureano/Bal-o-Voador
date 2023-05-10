@@ -9,6 +9,7 @@
 <body>
 	<h1>🎈Balão Voador</h1>
 	<p>Um jogo educativo para crianças da 3° infância, desenvolvido para Android e IOS com o intuito de desenvolver o cognitivo das crianças. A jogabilidade consiste em estourar balões que surgem da parte inferior da tela do celular e contém números que indicam a quantidade de pontos que cada balão vale.</p>
+	<img src="GIF jogo.gif" alt="GIF animado">
 	<h2>🕹Jogabilidade</h2>
 	<p>O jogador deve estourar balões para acumular pontos. Cada balão contém um número que indica a quantidade de pontos que ele vale. Quando o jogador atinge a quantidade de pontos necessária para a fase, ele passa para a próxima fase. Se o jogador acumular mais pontos do que o necessário, ele perde e precisa recomeçar a fase.</p>
 	<h2>🎪Temática</h2>
