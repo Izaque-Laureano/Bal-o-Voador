@@ -1,7 +1,8 @@
 #
 <!DOCTYPE html>
 <html>
-<style="text-align: center;">
+<header>
+	<link rel="stylesheet" type="text/css" href="">
 <div>
   <img src="Gif-Titulo.gif" alt="GIF animado">
  </div>
