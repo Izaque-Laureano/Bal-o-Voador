@@ -44,6 +44,6 @@ public class BaloonPoints : MonoBehaviour
             UIManager.instance.SetScore(point);
 
         // Destroi após um curtíssimo tempo só pra dar tempo do som sair
-        Destroy(gameObject, 0.1f);
+        Destroy(gameObject, 0.15f);
     }
 }

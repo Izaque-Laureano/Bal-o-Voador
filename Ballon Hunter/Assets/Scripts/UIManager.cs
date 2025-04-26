@@ -11,6 +11,10 @@ public class UIManager : MonoBehaviour
     public bool Soma;
     public bool Menos;
     public bool SomaSoma;
+    public bool MenosMenos;
+    public bool SomaMenos;
+    public bool MenosSoma;
+    public bool Multi;
 
     public int MinRange, MaxRange;
     public int CurrentScore, MidleNumber,MidleNumber2, MaxScore;
@@ -49,6 +53,33 @@ public class UIManager : MonoBehaviour
             MidleNumberText.text = MidleNumber.ToString();
             MidleNumber2 = Random.Range(4, 8);
             MidleNumber2Text.text = MidleNumber2.ToString();
+        }
+        else if (MenosMenos)
+        {
+            MidleNumber = Random.Range(2, 4);
+            MidleNumberText.text = MidleNumber.ToString();
+            MidleNumber2 = Random.Range(4, 8);
+            MidleNumber2Text.text = MidleNumber2.ToString();
+        }
+        else if (SomaMenos)
+        {
+            MidleNumber = Random.Range(2, 4);
+            MidleNumberText.text = MidleNumber.ToString();
+            MidleNumber2 = Random.Range(4, 8);
+            MidleNumber2Text.text = MidleNumber2.ToString();
+        }
+        else if (MenosSoma)
+        {
+            MidleNumber = Random.Range(2, 4);
+            MidleNumberText.text = MidleNumber.ToString();
+            MidleNumber2 = Random.Range(4, 8);
+            MidleNumber2Text.text = MidleNumber2.ToString();
+        }
+        else if (Multi)
+        {
+            MidleNumber = Random.Range(2, 4);
+            MidleNumberText.text = MidleNumber.ToString();
+           
         }
         if (instance == null)
         {
@@ -97,7 +128,7 @@ public class UIManager : MonoBehaviour
 
     private void HandleGameLogic()
     {
-        if (!Soma && !Menos && !SomaSoma)
+        if (!Soma && !Menos && !SomaSoma && !MenosMenos && !SomaMenos && !MenosSoma && !Multi)
         {
             if (CurrentScore == MaxScore)
             {
@@ -162,7 +193,71 @@ public class UIManager : MonoBehaviour
                 GameOverPanel.SetActive(true);
             }
         }
-        
+        else if (MenosMenos)
+        {
+            if((CurrentScore - MidleNumber) - MidleNumber2 == MaxScore)
+            {
+                LevelDone = true;
+                BS.thespawn();
+                SavePlayerTime();
+                Passou.SetActive(true);
+            }
+            else if ((CurrentScore - MidleNumber) - MidleNumber2 > MaxScore)
+            {
+                LevelDone = true;
+                BS.thespawn();
+                GameOverPanel.SetActive(true);
+            }
+        }
+        else if (SomaMenos)
+        {
+            if ((CurrentScore + MidleNumber) - MidleNumber2 == MaxScore)
+            {
+                LevelDone = true;
+                BS.thespawn();
+                SavePlayerTime();
+                Passou.SetActive(true);
+            }
+            else if ((CurrentScore + MidleNumber) - MidleNumber2 > MaxScore)
+            {
+                LevelDone = true;
+                BS.thespawn();
+                GameOverPanel.SetActive(true);
+            }
+        }
+        else if (MenosSoma)
+        {
+            if ((CurrentScore - MidleNumber) + MidleNumber2 == MaxScore)
+            {
+                LevelDone = true;
+                BS.thespawn();
+                SavePlayerTime();
+                Passou.SetActive(true);
+            }
+            else if ((CurrentScore - MidleNumber) + MidleNumber2 > MaxScore)
+            {
+                LevelDone = true;
+                BS.thespawn();
+                GameOverPanel.SetActive(true);
+            }
+        }
+        else if (Multi)
+        {
+            if (CurrentScore * MidleNumber == MaxScore)
+            {
+                LevelDone = true;
+                BS.thespawn();
+                SavePlayerTime();
+                Passou.SetActive(true);
+            }
+            else if (CurrentScore * MidleNumber  > MaxScore)
+            {
+                LevelDone = true;
+                BS.thespawn();
+                GameOverPanel.SetActive(true);
+            }
+        }
+
     }
 
     
