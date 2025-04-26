@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class NewWaypoint : MonoBehaviour
 {
+
+    
+
+    public GameObject[] paineisFasse;
+
     GameManager GM;
     NewWayMove move;
     [Range(0f, 2f)]
@@ -65,7 +70,9 @@ public class NewWaypoint : MonoBehaviour
                 {
                     move.moveSpeed = 0;
                     currentWaypoint.GetComponent<SpriteRenderer>().color = Color.green;
-                    Invoke("level", 2f);
+                    paineisFasse[0].SetActive(true);
+                    //Invoke("level", 2f);
+                    FindObjectOfType<CameraFollow>().SetPanelActive(true);
                 }
 
 
@@ -84,7 +91,9 @@ public class NewWaypoint : MonoBehaviour
                 {
                     move.moveSpeed = 0;
                     currentWaypoint.GetComponent<SpriteRenderer>().color = Color.green;
-                    Invoke("level", 2f);
+                    paineisFasse[1].SetActive(true);
+                    //Invoke("level", 2f);
+                    FindObjectOfType<CameraFollow>().SetPanelActive(true);
                 }
 
 
@@ -100,8 +109,9 @@ public class NewWaypoint : MonoBehaviour
                     move.moveSpeed = 0;
 
                     currentWaypoint.GetComponent<SpriteRenderer>().color = Color.green;
-                    Invoke("level", 2f);
-
+                    paineisFasse[2].SetActive(true);
+                    //Invoke("level", 2f);
+                    FindObjectOfType<CameraFollow>().SetPanelActive(true);
 
                 }
 
@@ -118,8 +128,9 @@ public class NewWaypoint : MonoBehaviour
                     move.moveSpeed = 0;
 
                     currentWaypoint.GetComponent<SpriteRenderer>().color = Color.green;
-                    Invoke("level", 2f);
-
+                    paineisFasse[3].SetActive(true);
+                    //Invoke("level", 2f);
+                    FindObjectOfType<CameraFollow>().SetPanelActive(true);
 
                 }
 
@@ -136,9 +147,10 @@ public class NewWaypoint : MonoBehaviour
                     move.moveSpeed = 0;
 
                     currentWaypoint.GetComponent<SpriteRenderer>().color = Color.green;
-                    Invoke("level", 2f);
+                    paineisFasse[4].SetActive(true);
+                    //Invoke("level", 2f);
 
-
+                    FindObjectOfType<CameraFollow>().SetPanelActive(true);
                 }
 
                 
@@ -153,6 +165,7 @@ public class NewWaypoint : MonoBehaviour
         {
             //return null; 
               return transform.GetChild(0);
+            
         }
     }
     private void Update()
@@ -190,11 +203,16 @@ public class NewWaypoint : MonoBehaviour
             
         }
     }
-
+    public void Passou()
+    {
+        //GameObject SD = FindObjectOfType<SoundManager>().gameObject;
+        //Destroy(SD);
+        Invoke("level", 2f);
+    }
     public void level()
     {
-        GameObject SD = FindObjectOfType<SoundManager>().gameObject;
-        Destroy(SD);
+        /*GameObject SD = FindObjectOfType<SoundManager>().gameObject;
+        Destroy(SD);*/
         SceneManager.LoadScene(GM.FaseAtual);
     }
 

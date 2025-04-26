@@ -7,6 +7,8 @@ public class Movment : MonoBehaviour
 {
     Rigidbody2D RB;
     public float MaxSpeed, CurrentSpeed;
+    // Altura máxima antes de destruir o balão
+    public float maxY = 8.0f;
 
     private void Awake()
     {
@@ -19,6 +21,11 @@ public class Movment : MonoBehaviour
     private void FixedUpdate()
     {
         RB.velocity = Vector2.up * CurrentSpeed * Time.deltaTime;
+
+        if (transform.position.y > maxY)
+        {
+            Destroy(gameObject);
+        }
     }
 
 

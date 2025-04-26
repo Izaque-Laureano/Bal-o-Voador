@@ -1293,8 +1293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.0278125, y: 0.22630438}
   m_AnchorMax: {x: 1, y: 0.7538668}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -31.38}
+  m_SizeDelta: {x: 0, y: 62.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2052894397
 MonoBehaviour:
@@ -1319,21 +1319,20 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 127
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 127
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\tOl\xE1! Obrigado por ter chegado at\xE9 aqui. Esse \xE9 um jogo teste
-    para um projeto de TCC que tem como o intuito desenvolver o cognitivo das crian\xE7as
-    da 3\xB0 inf\xE2ncia.\n\tDesde de j\xE1 agrade\xE7o sua participa\xE7\xE3o nesse
-    incrivel projeto. Caso tenha gostado ou tido uma ideia de implementa\xE7\xE3o,
-    pode enviar suas sugest\xF5es  para: feedback.balaovoador@gmail.com\n"
+  m_Text: "Obrigado por jogar! Sua jornada termina por agora, mas novas aventuras
+    podem estar a caminho.\nSe tiver sugest\xF5es ou ideias para melhorias, adorar\xEDamos
+    ouvir voc\xEA! Envie seu feedback para: feedback.balaovoador@gmail.com.\nAt\xE9
+    a pr\xF3xima!\"\n"
 --- !u!222 &2052894398
 CanvasRenderer:
   m_ObjectHideFlags: 0

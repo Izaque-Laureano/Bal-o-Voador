@@ -14,7 +14,7 @@ public class LevelController : MonoBehaviour
         int NextLevel = SceneManager.GetActiveScene().buildIndex +1;
         GameManager.GM.FaseAtual++;
         GameManager.GM.Save();
-        SceneManager.LoadScene(NextLevel);
+        SceneManager.LoadScene("PainelFases");
     }
 
 
@@ -52,6 +52,7 @@ public class LevelController : MonoBehaviour
     {
         
         GameManager.GM.FaseAtual = 1;
+        
         GameManager.GM.Save();
         SceneManager.LoadScene("Menu");
     }

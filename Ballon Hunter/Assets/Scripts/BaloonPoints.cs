@@ -5,47 +5,45 @@ using UnityEngine;
 public class BaloonPoints : MonoBehaviour
 {
     public int point;
-    Animator anim;
+    private Animator anim;
     public AudioSource explosion;
 
-    [Header("NOME DA ANIM DESTRUIR")]
-    public string AnimatorName;
+    [Header("BALÃO MULTIPLICADOR")]
+    public bool isMultiplier = false;
+    public int multiplier = 2; // valor padrão de multiplicação
+
     UIManager UI;
 
-    // Start is called before the first frame update
     private void Awake()
     {
         anim = GetComponent<Animator>();
         UI = FindObjectOfType<UIManager>();
+
+        if (UI == null)
+            Debug.LogError("UIManager não encontrado na cena!");
+
+        if (explosion == null)
+            Debug.LogError("AudioSource de explosão não atribuído no Inspector!");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-          
-    }
-
-
-    
     public void OnMouseDown()
     {
-        if (!UI.LevelDone)
-        {
-            anim.Play(AnimatorName);
+        if (UI == null || UI.LevelDone) return;
 
-        }
-    }
+        // Ativa animação (um único frame de explosão já deve estar configurado no Animator)
+        anim.SetTrigger("Explode");
 
-    public void Destruir()
-    {
-        explosion.Play();
-        UIManager.instance.SetScore(point);
-        Invoke("destruir2", 0.08f);
+        // Executa o som
+        if (explosion != null)
+            explosion.Play();
 
-    }
+        // Aplica pontuação
+        if (isMultiplier)
+            UIManager.instance.MultiplyScore(multiplier);
+        else
+            UIManager.instance.SetScore(point);
 
-    public void destruir2()
-    {
-        Destroy(gameObject);
+        // Destroi após um curtíssimo tempo só pra dar tempo do som sair
+        Destroy(gameObject, 0.1f);
     }
 }
