@@ -337,6 +337,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1967693052}
     m_Modifications:
+    - target: {fileID: 2075922022408386661, guid: 95e94e7069086e94582627a2eb3427e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075922022408386661, guid: 95e94e7069086e94582627a2eb3427e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1076109084}
+    - target: {fileID: 2075922022408386661, guid: 95e94e7069086e94582627a2eb3427e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075922022408386661, guid: 95e94e7069086e94582627a2eb3427e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075922023276311833, guid: 95e94e7069086e94582627a2eb3427e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1076109084}
+    - target: {fileID: 2075922023276311833, guid: 95e94e7069086e94582627a2eb3427e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Menu
+      objectReference: {fileID: 0}
     - target: {fileID: 2075922023651349965, guid: 95e94e7069086e94582627a2eb3427e4, type: 3}
       propertyPath: m_Name
       value: Ganhou 1
@@ -478,6 +502,7 @@ GameObject:
   - component: {fileID: 1076109081}
   - component: {fileID: 1076109083}
   - component: {fileID: 1076109082}
+  - component: {fileID: 1076109084}
   m_Layer: 5
   m_Name: BG
   m_TagString: Untagged
@@ -542,6 +567,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076109080}
   m_CullTransparentMesh: 1
+--- !u!114 &1076109084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076109080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57601d1cecf318246a77a9c6934b0d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1401851232
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,8 +865,8 @@ RectTransform:
   - {fileID: 1076109081}
   - {fileID: 821098872}
   - {fileID: 216855726106987653}
-  - {fileID: 947895256}
   - {fileID: 2116552934}
+  - {fileID: 947895256}
   - {fileID: 224869065}
   - {fileID: 608293602}
   m_Father: {fileID: 0}
@@ -855,6 +892,10 @@ MonoBehaviour:
   Soma: 0
   Menos: 0
   SomaSoma: 0
+  MenosMenos: 0
+  SomaMenos: 0
+  MenosSoma: 0
+  Multi: 0
   MinRange: 10
   MaxRange: 25
   CurrentScore: 0
@@ -974,7 +1015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8368346771223117279, guid: e35144900d8daab4fb97f46d3c4b4b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8368346771223117279, guid: e35144900d8daab4fb97f46d3c4b4b0f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1185,7 +1226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 154772366323779038, guid: cf7174033b856d4429417f5beaeddfd9, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 154772366323779038, guid: cf7174033b856d4429417f5beaeddfd9, type: 3}
       propertyPath: m_AnchorMax.x

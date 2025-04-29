@@ -14,19 +14,88 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase 2.unity
     guid: 20216c47802175e4dabfdc067108b67b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Fase 3.unity
     guid: 8f68d068638383c4e886718ec043b4ee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Fase 4.unity
     guid: d9d1247506a3f054bb8879715261dece
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Fase 5.unity
     guid: 3430120e3b0989841b4d79508c0360b4
+  - enabled: 1
+    path: Assets/Scenes/Fase 6.unity
+    guid: ca35099609675734ebfcf7bdaded72b9
+  - enabled: 0
+    path: Assets/Scenes/Fase 7.unity
+    guid: ab31d43a6bb0140499478a3200e1dded
+  - enabled: 0
+    path: Assets/Scenes/Fase 8.unity
+    guid: 6142dcfc86a7da649982bcf594a5efea
+  - enabled: 0
+    path: Assets/Scenes/Fase 9.unity
+    guid: f6c418b9f81c7bd499d7d0f1de320854
+  - enabled: 1
+    path: Assets/Scenes/Fase 10.unity
+    guid: 15494bfcfff4e454eb6e935e5b944297
+  - enabled: 0
+    path: Assets/Scenes/Fase 11.unity
+    guid: 894e13db80fedde4389cda0ede1e13f5
+  - enabled: 1
+    path: Assets/Scenes/Fase 12.unity
+    guid: 9a40630f0c702c14cb912effc68597ab
   - enabled: 1
     path: Assets/Scenes/PainelFases.unity
     guid: 900d69744fac06f48bd52fb5367340cf
   - enabled: 1
     path: Assets/Scenes/Final.unity
     guid: 16828199b6e775341a5673116602f6c2
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Menu2.unity
+    guid: e5e79c3157b1af342b6bde21915892e2
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Adicao1.unity
+    guid: 154319f926424114ebb121e8a4f2a0d6
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Adicao2.unity
+    guid: c306b65150b08284992924deb2774f4a
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Adicao3.unity
+    guid: 6f478e41b3a71234b989e9d0291bcda5
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Adicao4.unity
+    guid: 840d92ca96f0c1a47962f8fb2b1f7d20
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Adicao5.unity
+    guid: abbe78e68a25ac6428aa96cc12c33bc8
+  - enabled: 1
+    path: Assets/Scenas Menu 2/FasesAdicao.unity
+    guid: 91bda3a5ff7dff84d806f708aaf71e43
+  - enabled: 1
+    path: Assets/Scenas Menu 2/FasesSubtracao.unity
+    guid: 9dc207c7b654e79458e518010223ba48
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Sub1.unity
+    guid: 647cab00cb0032545a8833943f75cb7c
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Sub2.unity
+    guid: c30ab44271b29b449b06bc6421feb57a
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Sub3.unity
+    guid: 1aa8277e0b9d4f54ca21db2f363a375c
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Sub4.unity
+    guid: f42b80ebcb276e145a54bba3917b4dc9
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Sub5.unity
+    guid: 9f6dac885bf0a5f418e86ed39a8dfbe2
+  - enabled: 1
+    path: Assets/Scenas Menu 2/FasesMulti.unity
+    guid: 629cc9de04281614caccf862f1465c19
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Mult1.unity
+    guid: bc916739477778a448ea9da4a96b7e36
+  - enabled: 1
+    path: Assets/Scenas Menu 2/Mult2.unity
+    guid: 6b79986ce79761c43a495c3d6922bcc8
   m_configObjects: {}

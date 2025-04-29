@@ -17,7 +17,7 @@ class PlayerData
 
 public class GameManager : MonoBehaviour
 {
-
+    public string[] nomesDasFases = { "Fase 1", "Fase 2", "Fase 6", "Fase 10", "Fase 12" };
     public int FaseAtual;
     public static GameManager GM;
     private string filePath;

@@ -104,7 +104,7 @@ public class NewWaypoint : MonoBehaviour
 
             {
 
-                if (teste.Contains("Fase 3"))
+                if (teste.Contains("Fase 6"))
                 {
                     move.moveSpeed = 0;
 
@@ -123,7 +123,7 @@ public class NewWaypoint : MonoBehaviour
 
             {
 
-                if (teste.Contains("Fase 4"))
+                if (teste.Contains("Fase 10"))
                 {
                     move.moveSpeed = 0;
 
@@ -142,7 +142,7 @@ public class NewWaypoint : MonoBehaviour
 
             {
 
-                if (teste.Contains("Fase 5"))
+                if (teste.Contains("Fase 12"))
                 {
                     move.moveSpeed = 0;
 
@@ -214,6 +214,7 @@ public class NewWaypoint : MonoBehaviour
         /*GameObject SD = FindObjectOfType<SoundManager>().gameObject;
         Destroy(SD);*/
         SceneManager.LoadScene(GM.FaseAtual);
+        
     }
 
 }
