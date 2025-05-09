@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 1990683989451097765}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10, y: -344, z: -9720}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 108}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 108}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -264,6 +264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxSpeed: 50
   CurrentSpeed: 0
+  maxY: 8
 --- !u!114 &1990683989451097755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,4 +279,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   point: 7
   explosion: {fileID: 1990683989451097753}
-  AnimatorName: RoxoDestroy
+  isMultiplier: 0
+  multiplier: 2
